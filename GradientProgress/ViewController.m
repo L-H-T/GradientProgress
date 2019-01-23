@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GradientRingView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    GradientRingView * ringView = [[GradientRingView alloc]initWithFrame:CGRectMake(100, 200, 100, 100)];
+    [self.view addSubview:ringView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

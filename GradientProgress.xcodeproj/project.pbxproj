@@ -15,6 +15,7 @@
 		4AF978A821F84F50003B665F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF978A721F84F50003B665F /* main.m */; };
 		4AF978B221F84F51003B665F /* GradientProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF978B121F84F51003B665F /* GradientProgressTests.m */; };
 		4AF978BD21F84F51003B665F /* GradientProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF978BC21F84F51003B665F /* GradientProgressUITests.m */; };
+		4AF978CD21F84F7E003B665F /* GradientRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF978CC21F84F7E003B665F /* GradientRingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4AF978B821F84F51003B665F /* GradientProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF978BC21F84F51003B665F /* GradientProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientProgressUITests.m; sourceTree = "<group>"; };
 		4AF978BE21F84F51003B665F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF978CB21F84F7E003B665F /* GradientRingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientRingView.h; sourceTree = "<group>"; };
+		4AF978CC21F84F7E003B665F /* GradientRingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientRingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		4AF9789721F84F4E003B665F /* GradientProgress */ = {
 			isa = PBXGroup;
 			children = (
+				4AF978CA21F84F5B003B665F /* view */,
 				4AF9789821F84F4E003B665F /* AppDelegate.h */,
 				4AF9789921F84F4E003B665F /* AppDelegate.m */,
 				4AF9789B21F84F4E003B665F /* ViewController.h */,
@@ -130,6 +134,15 @@
 				4AF978BE21F84F51003B665F /* Info.plist */,
 			);
 			path = GradientProgressUITests;
+			sourceTree = "<group>";
+		};
+		4AF978CA21F84F5B003B665F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4AF978CB21F84F7E003B665F /* GradientRingView.h */,
+				4AF978CC21F84F7E003B665F /* GradientRingView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				4AF9789D21F84F4E003B665F /* ViewController.m in Sources */,
 				4AF978A821F84F50003B665F /* main.m in Sources */,
+				4AF978CD21F84F7E003B665F /* GradientRingView.m in Sources */,
 				4AF9789A21F84F4E003B665F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
